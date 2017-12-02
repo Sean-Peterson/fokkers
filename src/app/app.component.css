@@ -1,11 +1,32 @@
+@font-face {
+    font-family: deutsch;
+    src: url("../assets/fonts/Deutsch.ttf") format("opentype");
+}
+@font-face {
+    font-family: warsaw;
+    src: url("../assets/fonts/WarsawGothicSuExt.otf") format("opentype");
+}
+@font-face {
+    font-family: wood;
+    src: url("../assets/fonts/WarsawGothicWoodtype.otf") format("opentype");
+}
+@font-face {
+    font-family: ale;
+    src: url("../assets/fonts/LudlowStrongAle.ttf") format("opentype");
+}
+
+.all{
+}
 .options{
   display: inline;
   margin-left: 1vw;
-  font-size: 1.5em;
+  font-size: 2em;
+  font-family: warsaw;
 }
 
 #first{
   margin-top: 5vh;
+  margin-bottom: 5vh;
   background-image: url('/../assets/images/fokkers.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -19,15 +40,15 @@
 
 
 #name{
+  font-family: ale;
   display: inline;
-  font-size: 4em;
+  font-size: 5em;
   padding-left: 4vw;
 }
 
 #nav{
-  padding-top: 2.5vh;
+  /*padding-top: 1.5vh;*/
   background-color: black;
-  height: 10vh;
   color: white;
 }
 
@@ -36,6 +57,12 @@
   height: 3vh;
 }
 
+#statement{
+  text-align: center;
+  font-size: 4em;
+  font-family: ale;
+}
+
 #option1{
-  margin-left: 50vw;
+  margin-left: 42vw;
 }
