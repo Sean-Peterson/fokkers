@@ -1,0 +1,41 @@
+.options{
+  display: inline;
+  margin-left: 1vw;
+  font-size: 1.5em;
+}
+
+#first{
+  margin-top: 5vh;
+  background-image: url('/../assets/images/fokkers.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 50vh;
+}
+
+#first h3{
+  margin-top: 0px;
+}
+
+
+#name{
+  display: inline;
+  font-size: 4em;
+  padding-left: 4vw;
+}
+
+#nav{
+  padding-top: 2.5vh;
+  background-color: black;
+  height: 10vh;
+  color: white;
+}
+
+#nav2{
+  background-color: gray;
+  height: 3vh;
+}
+
+#option1{
+  margin-left: 50vw;
+}
